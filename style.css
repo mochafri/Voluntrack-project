@@ -62,7 +62,7 @@ body {
 }
 
 nav {
-    padding: 0 60px;
+    padding: 0 120px;
 }
 
 .navbar>* {
@@ -108,7 +108,7 @@ nav {
 /* Main */
 /* Page 1 */
 main {
-    padding: 0 80px;
+    padding: 0 120px;
 }
 
 
@@ -191,7 +191,7 @@ main {
 #page2 .category>* {
     border: 1px solid black;
     height: 350px;
-    margin: 0 40px;
+    margin: 0 20px;
     border-radius: 10px;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: 5px 5px 20px #ccc;
