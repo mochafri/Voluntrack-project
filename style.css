@@ -34,23 +34,50 @@ body {
 
 #page2,
 #page3,
-#page4 {
+#page4,
+#page5,
+footer {
     margin-top: 170px;
+}
+
+.gradient {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #B1EF6A;
+    opacity: 5%;
+    box-shadow: 0 0 100px 150px #B1EF6A;
+    z-index: -99;
 }
 
 
 
-.gradient {
+.gradient1 {
     width: 600px;
     height: 600px;
-    border-radius: 50%;
-    position: absolute;
     left: -200px;
     top: -200px;
-    background-color: #B1EF6A;
-    opacity: 15%;
-    box-shadow: 0 0 100px 150px #B1EF6A;
-    z-index: -99;
+}
+
+.gradient2 {
+    right: -200px;
+    top: 700px;
+}
+
+.gradient3 {
+    left: -200px;
+    top: 1300px;
+}
+
+.gradient4 {
+    right: -200px;
+    top: 2500px;
+}
+
+.gradient5 {
+    left: -200px;
+    top: 3500px;
 }
 
 /* Navbar */
@@ -87,7 +114,7 @@ nav {
     color: black;
     opacity: .6;
     font-weight: bold;
-    font-size: 1em;
+    font-size: .9em;
 }
 
 .akun button:first-child {
@@ -96,7 +123,7 @@ nav {
 
 
 .akun button {
-    width: 100px;
+    width: 90px;
     border-radius: 10px;
     padding: 5px 15px;
     border: none;
@@ -133,7 +160,7 @@ main {
     background-color: #AEF161;
     color: black;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 #page1 .left-text .data-kegiatan {
@@ -164,6 +191,7 @@ main {
     padding-top: 100px;
 }
 
+
 /* #page1 .hero-image img {
     width: 80%;
 } */
@@ -179,8 +207,8 @@ main {
 }
 
 #page2 .cText2 p {
-    border: 3px solid #258D00;
-    color: #258D00;
+    border: 3px solid #51A433;
+    color: #51A433;
     padding: 10px 15px;
     border-radius: 10px;
     font-family: 'jakartaSansBold';
@@ -188,17 +216,13 @@ main {
 
 
 
-#page2 .category>* {
+#page2 .category > * {
     border: 1px solid black;
     height: 350px;
     margin: 0 20px;
     border-radius: 10px;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: 5px 5px 20px #ccc;
-}
-
-
-#page2 .category>* {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -206,11 +230,13 @@ main {
     text-align: center;
 }
 
+
+
 #page2 .category {
     margin-top: 50px;
 }
 
-#page2 .category h5 {
+#page2 .category h6 {
     font-family: 'jakartaSansExtraBold';
 }
 
@@ -234,8 +260,8 @@ main {
 }
 
 #page3 .cText2 p {
-    border: 3px solid #258D00;
-    color: #258D00;
+    border: 3px solid #51A433;
+    color: #51A433;
     padding: 10px 15px;
     border-radius: 10px;
     font-family: 'jakartaSansBold';
@@ -293,34 +319,127 @@ main {
 
 
 
-
 /* Page 4 */
-
-#page4 .right-text h5 {
+#page4 .cText h5 {
     font-family: 'jakartaSansBold';
     color: #258D00;
 }
 
-#page4 .right-text h1 {
+#page4 .cText2 p {
+    border: 3px solid #51A433;
+    color: #51A433;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: 'jakartaSansBold';
+}
+
+#page4 .card .caption-edukasi {
+    padding: 20px;
+}
+
+#page4 .card .caption-edukasi .edukasi {
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+#page4 .card .caption-edukasi .edukasi1 {
+    border: 1px solid #057CD2;
+    color: #057CD2;
+    background: rgba(5, 124, 210, .1);
+}
+
+#page4 .card .caption-edukasi .edukasi2 {
+    border: 1px solid #ced205;
+    color: #979A0D;
+    background: rgba(151, 154, 13, .1);
+}
+
+
+#page4 .card .caption-edukasi .edukasi3 {
+    border: 1px solid #A3FF8C;
+    color: #258D00;
+    background: rgba(163, 255, 140, .1);
+}
+
+#page4 .card .caption-edukasi .edukasi span {
+    font-family: 'jakartaSansSemiBold';
+    font-size: 1em;
+}
+
+#page4 .card .caption-edukasi button {
+    width: 100%;
+    padding: 15px 0;
+    color: white;
+    font-family: 'jakartaSansBold';
+    background-color: #52B69A;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+/* Page 5 */
+
+#page5 .right-text h5 {
+    font-family: 'jakartaSansBold';
+    color: #258D00;
+}
+
+#page5 .right-text h1 {
     font-family: 'jakartaSansExtraBold';
     margin-top: 50px;
     font-size: 50px;
     width: 600px;
 }
 
-#page4 .right-text .caption {
+#page5 .right-text .caption {
     margin-top: 30px;
     width: 550px;
     margin-bottom: 50px;
 }
 
-#page4 .right-text .caption2 .text-caption2>* {
+#page5 .right-text .caption2 .text-caption2>* {
     margin: 5px 0 5px 15px;
     font-size: 13px;
 }
 
-#page4 .hero-image2 {
+#page5 .hero-image2 {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
 }
+
+#page5 .right-text button {
+    font-family: 'jakartaSansBold';
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #AEF161;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    
+}
+
+footer .container{
+    padding-left: 200px;
+}
+
+footer .menu h5 {
+    margin-bottom: 15px;
+}
+
+footer .menu ul li {
+    margin-bottom: 15px;
+}
+
