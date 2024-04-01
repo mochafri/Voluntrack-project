@@ -1,0 +1,102 @@
+/* font */
+
+@font-face {
+    font-family: 'jakartaSansRegular';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'jakartaSansBold';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf) format(truetype);
+}
+
+
+@font-face {
+    font-family: 'jakartaSansExtraBold';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'jakartaSansSemiBold';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf) format(truetype);
+}
+
+/* Universal */
+
+body {
+    overflow: hidden;
+}
+
+
+.container-fluid {
+    font-size: 16px;
+}
+
+
+.container-fluid .row {
+    padding: 3.25em 6.5em;
+    height: 100vh;
+}
+
+.input-form .logo img {
+    width: 4vw;
+}
+
+.input-form .logo h5 {
+    font-size: 1.5em;
+    font-family: 'jakartaSansBold';
+}
+
+
+
+.garis {
+    border: 1px solid #cdcccc;
+    position: absolute;
+    transform: rotate(90deg);
+    left: -150px;
+    box-shadow: 0 -1px 4px 1px #ddd;
+}
+
+.welcome h5  {
+    font-size: 2em;
+    font-family: 'jakartaSansBold';
+}
+
+.welcome p, .verifikasi p {
+    font-size: .85em;
+    margin-top: 15px;
+}
+
+.input-form .verifikasi a {
+    margin-top: 15px;
+    font-size: .85em;
+    color: #057CD2;
+}
+
+
+.input-form .verifikasi h5  {
+    font-size: 2em;
+    font-family: 'jakartaSansSemiBold';
+}
+
+
+.input-form a {
+    color: black;
+}
+
+.input-form button {
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    background-color: #AEF161;
+    padding: 10px 0;
+    margin-top: 25px;
+}
+
+
+.input-form .verifikasi {
+    margin-top: 100px;
+}
+
+
