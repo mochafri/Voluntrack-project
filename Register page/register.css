@@ -40,8 +40,9 @@ body {
 }
 
 
-.input-form .logo h5, .welcome h5 {
-    font-size: 1.5em;
+.input-form .welcome h5 {
+    font-size: 1.8em;
+    font-family: 'jakartaSansBold';
 }
 
 .input-form .welcome p {
@@ -88,6 +89,17 @@ body {
     border: none;
     background-color: #AEF161;
     padding: 10px 0;
+}
+
+.input-form p:last-child {
+    text-align: center;
+    margin-top: 20px;
+    font-size: .9em;
+    font-family: 'jakartaSansSemiBold';
+}
+
+.input-form p a {
+    color: #258D00;
 }
 
 /* Kata Sandi salah */
