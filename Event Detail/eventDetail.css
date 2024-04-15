@@ -1,0 +1,218 @@
+/* Font */
+@font-face {
+    font-family: 'jakartaSansRegular';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'jakartaSansBold';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf) format(truetype);
+}
+
+
+@font-face {
+    font-family: 'jakartaSansExtraBold';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'jakartaSansSemiBold';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'jakartaSansMedium';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'jakartaSansExtraBoldItalic';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBoldItalic.ttf) format(truetype);
+}
+
+
+/* Universal */
+* {
+    font-family: 'jakartaSansRegular';
+}
+
+body {
+    font-size: 16px;
+}
+
+#page1 {
+    margin-top: 100px;
+}
+
+
+/* font styling */
+#page1 .right h4 {
+    font-family: 'jakartaSansBold';
+}
+
+#page1 .right p:nth-child(2),
+#page1 .right p:nth-child(7) {
+    font-family: 'jakartaSansSemiBold';
+}
+
+/* Navbar */
+.judul h5 {
+    color: black;
+    font-family: 'jakartaSansBold';
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+nav,
+main {
+    padding: 0 120px;
+}
+
+.navbar>* {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigasi ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigasi ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navigasi ul li a {
+    text-decoration: none;
+    color: black;
+    opacity: .6;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.navigasi ul li a:hover {
+    color: #0DB51D;
+}
+
+.akun button:first-child {
+    background-color: transparent;
+}
+
+
+.akun button {
+    width: 90px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.akun button a {
+    text-decoration: none;
+    color: black;
+}
+
+.akun p {
+    margin: 0;
+    font-size: .9em;
+    margin-left: 10px;
+    font-family: 'jakartaSansSemiBold';
+}
+
+
+
+
+
+/* Main */
+#page1 .left .more-img img {
+    width: 32%;
+}
+
+#page1 .right {
+    background: rgba(174, 241, 97, .15);
+    padding: 20px;
+}
+
+#page1 .right p {
+    margin-bottom: 10px;
+}
+
+
+#page1 .right .kategori {
+    width: 105px;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+}
+
+#page1 .right .kategori4 {
+    border: 1px solid #E56721;
+    color: rgb(225, 81, 1);
+    background: rgba(255, 81, 1, .1);
+}
+
+#page1 .right .kategori span {
+    font-size: .7em;
+}
+
+#page1 .right button {
+    width: 100%;
+    padding: 15px;
+    margin: 25px 0;
+    font-family: 'jakartaSansBold';
+    border: none;
+    border-radius: 10px;
+    background-color: #AEF161;
+}
+
+#page1 .right .button2 {
+    background: transparent;
+    color: #7E9C5C;
+    border: 1px solid #7E9C5C;
+}
+
+
+#page2 p.deskripsi,
+#page2 p.kebutuhan,
+#page2 p.para-relawan {
+    font-family: 'jakartaSansSemiBold';
+    font-size: .95em;
+    color: black;
+}
+
+#page2 p,
+#page2 ul li {
+    color: #999;
+}
+
+#page2 p:nth-child(6),
+#page2 p:nth-child(8),
+#page2 p:nth-child(10) {
+    margin: 0;
+}
+
+
+
+
+/* Footer */
+footer {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+
+}
+
+footer .container {
+    padding-left: 200px;
+}
+
+footer .menu h5 {
+    margin-bottom: 15px;
+}
+
+footer .menu ul li {
+    margin-bottom: 15px;
+}
