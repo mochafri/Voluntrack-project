@@ -1,0 +1,239 @@
+/* Font */
+@font-face {
+    font-family: 'jakartaSansRegular';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'jakartaSansBold';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf) format(truetype);
+}
+
+
+@font-face {
+    font-family: 'jakartaSansExtraBold';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'jakartaSansSemiBold';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'jakartaSansMedium';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'jakartaSansExtraBoldItalic';
+    src: url(../Font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBoldItalic.ttf) format(truetype);
+}
+
+
+/* Universal */
+* {
+    font-family: 'jakartaSansRegular';
+}
+
+body {
+    font-size: 16px;
+}
+
+
+
+/* Navbar */
+.judul h5 {
+    color: black;
+    font-family: 'jakartaSansBold';
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+nav,
+main {
+    padding: 0 120px;
+}
+
+.navbar>* {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigasi ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigasi ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navigasi ul li a {
+    text-decoration: none;
+    color: black;
+    opacity: .6;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.navigasi ul li a:hover {
+    color: #0DB51D;
+}
+
+.akun button:first-child {
+    background-color: transparent;
+}
+
+
+.akun button {
+    width: 90px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.akun button a {
+    text-decoration: none;
+    color: black;
+}
+
+.akun p {
+    margin: 0;
+    font-size: .9em;
+    margin-left: 10px;
+    font-family: 'jakartaSansSemiBold';
+}
+
+
+
+
+
+/* Main */
+main .row {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+main .row1 {
+    margin: 100px 0;
+}
+
+main .row2 .deskripsi h4,
+main .row3 .deskripsi h4,
+main .row4 .deskripsi h4 {
+    font-size: 1.625em;
+    font-family: 'jakartaSansBold';
+}
+
+main .row2 .deskripsi p,
+main .row3 .deskripsi p,
+main .row4 .deskripsi p {
+    font-size: 1.125em;
+    opacity: 50%;
+}
+
+main .row2 .deskripsi .detail .laut {
+    border: 1px solid #5CE2FF;
+}
+
+main .row3 .deskripsi .detail .hewan {
+    border: 1px solid #CED205;
+}
+
+main .row4 .deskripsi .detail .penyakit {
+    border: 1px solid #A3FF8C;
+}
+
+main .row2 .deskripsi .detail .laut p {
+    font-size: 0.875em;
+    opacity: 100%;
+    color: #1B91E7;
+    background: rgba(27, 145, 231, .1);
+    margin: 0;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-family: 'jakartaSansSemibold';
+}
+
+main .row3 .deskripsi .detail .hewan p {
+    font-size: 0.875em;
+    opacity: 100%;
+    color: #979A0D;
+    background: rgba(151, 154, 13, .1);
+    margin: 0;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-family: 'jakartaSansSemibold';
+}
+
+main .row4 .deskripsi .detail .penyakit p {
+    font-size: 0.875em;
+    opacity: 100%;
+    color: #258D00;
+    background: #D9FFDA;
+    margin: 0;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-family: 'jakartaSansSemibold';
+}
+
+
+
+main .row2 .deskripsi .detail button,
+main .row3 .deskripsi .detail button,
+main .row4 .deskripsi .detail button {
+    background-color: #52B69A;
+    border-radius: 10px;
+    color: white;
+    font-family: 'jakartaSansBold';
+    border: none;
+    font-size: 0.875em;
+    width: 240px;
+    height: 50px;
+}
+
+main .row5 {
+    margin: 100px 0;
+    padding: 0;
+}
+
+main .row5 button {
+    border: 2px solid #51A433;
+    font-size: 1em;
+    font-family: 'jakartaSansSemiBold';
+    color: #51A433;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    
+}
+
+footer .container{
+    padding-left: 200px;
+}
+
+footer .menu h5 {
+    margin-bottom: 15px;
+}
+
+footer .menu ul li {
+    margin-bottom: 15px;
+}
