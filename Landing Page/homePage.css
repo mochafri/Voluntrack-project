@@ -215,12 +215,19 @@ main {
     color: #258D00;
 }
 
-#page2 .cText2 p {
+#page2 .cText2 button {
     border: 3px solid #51A433;
-    color: #51A433;
+
     padding: 10px 15px;
     border-radius: 10px;
+
+    background: transparent;
+}
+
+#page2 .cText2 button a {
+    text-decoration: none;
     font-family: 'jakartaSansBold';
+    color: #51A433;
 }
 
 
