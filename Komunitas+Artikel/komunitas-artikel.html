@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="quiz.css">
+    <title>Artikel + Diskusi</title>
+    <link rel="stylesheet" href="komunitas-artikel.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -44,40 +44,95 @@
 
         <!-- Isi / Main -->
         <main>
-            <div class="row row1">
-                <div class="col text-center">
-                    <h2>Tes <u>Pengetahuanmu !</u></h2>
+            <div class="row row1 mt-5">
+                <div class="col-2 buat">
+                    <button>Buat Diskusi</button>
+                </div>
+                <div class="col border search p-2">
+                    <img src="../icon/search.svg" alt="search" width="18px">
+                    <input type="text" placeholder="CARI DISKUSI">
+                </div>
+                <div class="col-2 border filter d-flex justify-content-center align-items-center">
+                    <p class="m-0">Terbaru</p>
                 </div>
             </div>
             <div class="row row2">
-                <div class="col d-flex justify-content-between">
-                    <div class="nomor">
-                        <p>No. 1</p>
+                <div class="col-3 shadow mt-5 left h-50">
+                    <div class="judul">
+                        <h5>Ikuti Komunitas Yang Tersedia</h5>
                     </div>
-                    <div class="kategori">
-                        <p>Hewan</p>
+                    <div class="hastag">
+                        <div class="tag mt-4">
+                            <h5 class="m-0">#PantiAsuhan</h5>
+                            <p class="m-0">26 Postingan</p>
+                        </div>
+                    </div>
+                    <div class="hastag">
+                        <div class="tag mt-4">
+                            <h5 class="m-0">#SelamatkanLaut</h5>
+                            <p class="m-0">3 Postingan</p>
+                        </div>
+                    </div>
+                    <div class="hastag">
+                        <div class="tag mt-4">
+                            <h5 class="m-0">#ASK</h5>
+                            <p class="m-0">1 Postingan</p>
+                        </div>
+                    </div>
+                    <div class="hastag">
+                        <div class="tag mt-4">
+                            <h5 class="m-0">#Kemanusiaan!</h5>
+                            <p class="m-0">8 Postingan</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row row3 p-5 shadow mb-5">
-                <div class="row">
-                    <div class="col mt-3 mb-5">
-                        <h1>Hewan Apa Yang Saat Ini Sudah Punah?</h1>
+                <div class="col ms-3 right">
+                    <div class="diskusi d-flex gap-4 mt-5 shadow p-3">
+                        <img src="../image/diskusi1.png" alt="diskusi1">
+                        <div class="grup">
+                            <h3>Halo! Apakah Kalian tau panti asuhan terdekat?</h3>
+                            <div class="status d-flex gap-4 mt-4 align-items-center">
+                                <p>Lio Alfareza</p>
+                                <p>30 menit yang lalu</p>
+                                <p>0 balasan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="diskusi d-flex gap-4 mt-5 shadow p-3">
+                        <img src="../image/diskusi2.png" alt="diskusi1">
+                        <div class="grup">
+                            <h3>OPEN DISCUSSION TENTANG LAUT!!! </h3>
+                            <div class="status d-flex gap-4 mt-4 align-items-center">
+                                <p>Dewi Sartika</p>
+                                <p>Baru saja</p>
+                                <p>5 balasan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="diskusi d-flex gap-4 mt-5 shadow p-3">
+                        <img src="../image/diskusi3.png" alt="diskusi1">
+                        <div class="grup">
+                            <h3>List lautan yang tercemar tahun 2024</h3>
+                            <div class="status d-flex gap-4 mt-4 align-items-center">
+                                <p>Anh Yujin</p>
+                                <p>2 menit yang lalu</p>
+                                <p>4 balasan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="diskusi d-flex gap-4 mt-5 shadow p-3">
+                        <img src="../image/diskusi4.png" alt="diskusi1">
+                        <div class="grup">
+                            <h3>#ASK Apakah ada acara donasi yang berhubungan dengan kehutanan?</h3>
+                            <div class="status d-flex gap-4 mt-4 align-items-center">
+                                <p>Fransiska</p>
+                                <p>10 menit yang lalu</p>
+                                <p>4 balasan</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center ">
-                    <div class="col-7 pilihan gap-4 mt-5 mb-3">
-                        <button class="pilih1">Jerapah</button>
-                        <button class="pilih2">Puma Jawa</button>
-                        <button class="pilih3">Singa</button>
-                        <button class="pilih4">Bebek</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row row4">
-                <div class="col d-flex justify-content-end ">
-                    <button>Selanjutnya &#x2192;</button>
-                </div>
+                <div class="col-1"></div>
             </div>
         </main>
 

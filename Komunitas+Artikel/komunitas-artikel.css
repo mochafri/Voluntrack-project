@@ -51,8 +51,7 @@ body {
 }
 
 nav,
-main .row1,
-main .row2 {
+main {
     padding: 0 120px;
 }
 
@@ -116,127 +115,94 @@ main .row2 {
 
 
 /* Main */
-main .row1 {
-    margin: 50px 0 100px;
-}
-
-main .row1 h2 {
-    font-family: 'jakartaSansMedium';
-    font-size: 2.1875em;
-}
-
-main .row1 h2 u {
-    font-family: 'jakartaSansExtraBold';
-}
 
 
 
-main .row2 {
-    margin-bottom: 30px;
-}
-
-
-main .row2 .nomor p,
-main .row2 .kategori p {
-    margin: 0;
-}
-
-main .row2 .nomor,
-main .row2 .kategori {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-main .row2 .nomor {
-    border: 2px solid #51A433;
-    width: 120px;
-    height: 60px;
-    border-radius: 10px;
-    color: #51A433;
-}
-
-main .row2 .kategori {
-    border: 2px solid #CED205;
-    width: 120px;
-    height: 60px;
-    border-radius: 4px;
-    color: #979A0D;
-    background-color: rgba(151, 154, 13, .1);
-    font-size: 1.25em;
-}
-
-main .row2 .nomor p,
-main .row2 .kategori p {
-    font-family: 'jakartaSansSemiBold';
-}
-
-
-
-
-
-
-
-main .row3 {
-    background: rgba(81, 164, 51,.1);
-    padding: 0;
-}
-
-main .row3 .row {
-    padding: 0 80px;
-}
-
-main .row3 .row h1 {
-    font-size: 1.875em;
+main .row1 .buat button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
     font-family: 'jakartaSansBold';
-    text-align: center;
-}
-
-main .row3 .pilihan {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-main .row3 .pilihan button {
-    min-width: 290px;
-    flex: 1;
-    border-radius: 10px;
-    font-family: 'jakartaSansSemiBold';
-    padding: 20px 40px;
-}
-
-main .row3 .pilih1,
-main .row3 .pilih4 {
-    border: 2px solid #51A433;
-    color: #51A433;
-}
-
-main .row3 .pilih2 {
     border: none;
-    background-color: #258D00;
-    color: white;
+    background-color: #AEF161;
 }
 
-main .row3 .pilih3 {
+
+
+main .row1 .search input {
+    font-size: .8em;
+}
+
+main .row1 .search input {
     border: none;
-    background-color: #FFA5A5;
 }
 
-main .row4 button {
-    border: 2px solid #51A433;
-    font-size: 1em;
+main .row1 .filter {
+    width: 10%;
+    margin-left: 15px;
+}
+
+
+
+
+
+main .row2 .left {
+    padding: 30px 15px;
+}
+
+main .row2 .left .judul {
+    width: 80%;
+}
+
+main .row2 .left .judul h5 {
+    font-size: 1.125em;
+    color: #258D00;
+}
+
+main .row2 .left .hastag .tag h5 {
+    font-size: 1.125em;
+    font-family: 'jakartaSansBold';
+}
+
+main .row2 .left .hastag .tag p {
+    font-size: 0.75em;
+    color: #646464;
+
+}
+
+
+
+main .row2 .diskusi {
+    margin-top: 100px;
+}
+
+main .row2 .diskusi img {
+    width: 70px;
+    height: 70px;
+}
+
+main .row2 .diskusi .grup {
+    width: 80%;
+}
+
+main .row2 .diskusi .grup h3 {
     font-family: 'jakartaSansSemiBold';
-    color: #51A433;
-    background: transparent;
-    padding: 10px 20px;
-    border-radius: 10px;
 }
 
-main .row4 {
-    padding: 0 120px;
-    margin-bottom: 100px;
+main .row2 .diskusi .grup .status p:first-child {
+    font-family: 'jakartaSansBold';
+    color: #258D00;
 }
+
+main .row2 .diskusi .grup .status p:nth-child(2),
+.status p:nth-child(3) {
+    font-size: 12px;
+    font-family: 'jakartaSansSemiBold';
+    color: #7D7C7C;
+}
+
+
+
 
 
 

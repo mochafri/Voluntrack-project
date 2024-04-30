@@ -26,10 +26,10 @@ $params = array(
         'gross_amount' => $_POST['total'],
     ),
     'customer_details' => array(
-        'first_n    ame' => $_POST['name'],
+        'first_name' => $_POST['name'],
         'email' => $_POST['email'],
         'phone' => $_POST['phone'],
-    ),
+    )
 );
 
 $snapToken = \Midtrans\Snap::getSnapToken($params);
