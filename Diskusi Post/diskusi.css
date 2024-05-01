@@ -81,7 +81,7 @@ main {
 }
 
 .navigasi ul li a:hover {
-    color: #B1EF6A;
+    color: #0DB51D;
 }
 
 .akun button:first-child {
@@ -111,113 +111,119 @@ main {
 }
 
 
-/* utama */
-main img {
-    border-radius: 20px 20px 0 0;
+
+
+
+/* Main */
+main .row1 .left {
+    padding: 30px 15px;
+    background-color: #F5FFF6;
 }
 
-main .profile img {
-    position: absolute;
-    top: 270px;
-    left: 200px;
-}
-
-main .profile .names h4 {
-    font-family: 'jakartaSansSemiBold';
-}
-
-main .profile .names p {
-    font-family: 'jakartaSansMedium';
-    color: #646464;
-}
-
-main .profile .names button {
-    height: 45px;
-    width: 125px;
-    border-radius: 10px;
-    border: 2px solid #51A433;
-    background: transparent;
-    font-family: 'jakartaSansSemiBold';
-    color: #646464;
-}
-
-main .profile-detail {
-    margin: 60px 0 0 80px;
-}
-
-main .profile-detail h3 {
-    font-size: 1.6em;
-    font-family: 'jakartaSansBold';
-}
-
-main .profile-detail h3 span {
-    font-size: 1.4em;
-    font-family: 'jakartaSansExtraBoldItalic';
-    color: #AEF161;
-}
-
-main .profile-detail span:last-child {
-    font-size: 1.2em;
-    font-family: 'jakartaSansSemiBold';
-    margin-left: 20px;
-}
-
-main .profile-detail .datas .data {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 65px;
-}
-
-main .profile-detail .datas .data p {
-    margin: 10px 0;
-    font-family: 'jakartaSansSemiBold';
-    font-size: .9em;
-}
-
-main .profile-detail .datas .data p:last-child {
-    font-family: 'jakartaSansRegular';
-}
-
-main .profile-detail .right h5 {
-    font-size: 1.25em;
-    font-family: 'jakartaSansBold';
-    color: #258D00;
-}
-
-
-main .diskusi {
-    background-color: #F0F0F0;
-    padding: 20px 0 20px 20px;
-    width: 90%;
-}
-
-
-
-main .diskusi img {
-    width: 70px;
-    height: 70px;
-}
-
-main .diskusi .grup {
+main .row1 .left .judul {
     width: 80%;
 }
 
-main .diskusi .grup h3 {
-    font-family: 'jakartaSansSemiBold';
+main .row1 .left .judul h5 {
+    font-size: 1.125em;
+    color: #258D00;
 }
 
-main .diskusi .grup .status p:first-child {
+main .row1 .left .hastag .tag h5 {
+    font-size: 1.125em;
+    font-family: 'jakartaSansBold';
+}
+
+main .row1 .left .hastag .tag p {
+    font-size: 0.75em;
+    color: #646464;
+
+}
+
+
+
+main .row1 .right {
+    padding: 20px 30px;
+}
+
+main .row1 .right h1 {
     font-family: 'jakartaSansBold';
     color: #258D00;
-    margin: 0;
+    margin-bottom: 50px;
 }
 
-main .diskusi .grup .status p:nth-child(2),
-.status p:nth-child(3) {
-    font-size: 12px;
+main .row1 .right .diskusi h4 {
+    font-size: 1.625em;
+    font-family: 'jakartaSansSemiBold';
+    margin-bottom: 30px;
+}
+
+main .row1 .right .diskusi .detail > * {
+    font-size: 0.875em;
+}
+
+main .row1 .right .unggah .profile input {
+    font-size: 1.125em;
+    font-family: 'jakartaSansSemiBold';
+    color: #646464;
+    border: none;
+    outline: none;
+    width: 500px;
+}
+
+main .row1 .right .unggah button {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #51A433;
+    border: none;
+    color: white;
+    font-family: 'jakartaSansBold';
+}
+
+main .row1 .right .komen .name p:first-child {
+    font-size: 0.875em;
+    font-family: 'jakartaSansBold';
+}
+
+main .row1 .right .komen .name p:last-child {
+    font-size: 1.125em;
+}
+
+main .row1 .right .komen .name span {
+    margin-left: 70px;
+    font-size: 0.75em;
     font-family: 'jakartaSansSemiBold';
     color: #7D7C7C;
-    margin: 0;
 }
 
+main .row1 .right .komen .tanggal {
+    font-family: 'jakartaSansSemiBold';
+    font-size: 0.875em;
+    color: #7D7C7C;
+}
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+
+}
+
+footer .container {
+    padding-left: 200px;
+}
+
+footer .menu h5 {
+    margin-bottom: 15px;
+}
+
+footer .menu ul li {
+    margin-bottom: 15px;
+}

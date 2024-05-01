@@ -112,6 +112,11 @@ main {
 
 
 /* utama */
+main {
+    padding-bottom: 100px;
+}
+
+
 main img {
     border-radius: 20px 20px 0 0;
 }
@@ -141,77 +146,62 @@ main .profile .names button {
     color: #646464;
 }
 
-main .profile-detail {
-    margin: 60px 0 0 80px;
-}
-
-main .profile-detail h3 {
-    font-size: 1.6em;
-    font-family: 'jakartaSansBold';
-}
-
-main .profile-detail h3 span {
-    font-size: 1.4em;
-    font-family: 'jakartaSansExtraBoldItalic';
-    color: #AEF161;
-}
-
-main .profile-detail span:last-child {
-    font-size: 1.2em;
-    font-family: 'jakartaSansSemiBold';
-    margin-left: 20px;
-}
-
-main .profile-detail .datas .data {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 65px;
-}
-
-main .profile-detail .datas .data p {
-    margin: 10px 0;
-    font-family: 'jakartaSansSemiBold';
-    font-size: .9em;
-}
-
-main .profile-detail .datas .data p:last-child {
-    font-family: 'jakartaSansRegular';
-}
-
-
-main .diskusi {
-    background-color: #F0F0F0;
-    padding: 20px 0 20px 20px;
+main .profile .names .edit button:last-child {
     width: 90%;
+    background-color: #258D00;
+    color: white;
 }
 
-
-
-main .diskusi img {
-    width: 70px;
-    height: 70px;
+/* Row 1 */
+main .row1 {
+    margin-top: 100px;
+    padding-bottom: 50px;
 }
 
-main .diskusi .grup {
-    width: 80%;
+main .row1 .left, 
+main .row2 .left{
+    padding: 0 50px;
 }
 
-main .diskusi .grup h3 {
-    font-family: 'jakartaSansSemiBold';
-}
-
-main .diskusi .grup .status p:first-child {
+main .row1 .left h5,
+main .row2 .left h5{
     font-family: 'jakartaSansBold';
     color: #258D00;
-    margin: 0;
 }
 
-main .diskusi .grup .status p:nth-child(2),
-.status p:nth-child(3) {
-    font-size: 12px;
+main .row1 .right {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+main .row1 .right p {
+    border: 1px solid #CDCCCC;
+    padding: 10px;
+    font-size: .9em;
+    border-radius: 5px;
     font-family: 'jakartaSansSemiBold';
-    color: #7D7C7C;
-    margin: 0;
 }
 
+/* Row 2 */
+main .row2 {
+    padding: 50px 0 100px;
+}
+
+main .row2 .right {
+    margin-left: 120px;
+}
+
+main .row2 .right img {
+    width: 120px;
+    height: 120px;
+}
+
+main .row2 .right .upload img {
+    width: 32px;
+    height: 32px;
+}
+
+main .row2 .right .upload p {
+    width: 280px;
+    font-size: .9em;
+}

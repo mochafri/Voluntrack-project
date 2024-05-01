@@ -146,8 +146,10 @@ main .row1 .filter {
 
 
 
+
 main .row2 .left {
     padding: 30px 15px;
+    background-color: #F5FFF6;
 }
 
 main .row2 .left .judul {
@@ -203,6 +205,37 @@ main .row2 .diskusi .grup .status p:nth-child(2),
 
 
 
+
+
+
+
+
+.buat-diskusi {
+    width: 600px;
+    position: absolute;
+    top: 130px;
+    left: 30%;
+    padding: 25px 35px;
+    background-color: #fff;
+
+}
+
+.buat-diskusi .judul-diskusi input {
+    font-family: 'jakartaSansSemiBold';
+    color: #646464;
+    font-size: 1.5em;
+    outline: none;
+}
+
+.buat-diskusi .adds button {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #51A433;
+    border: none;
+    color: white;
+    font-family: 'jakartaSansBold';
+}
 
 
 
